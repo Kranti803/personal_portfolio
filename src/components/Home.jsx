@@ -17,14 +17,14 @@ const Home = () => {
     <section className="px-6 lg:w-[80vw] m-auto  h-[calc(100vh-40px)] flex justify-evenly flex-col">
       <div className="flex flex-col gap-8">
         <div>
-          <p className="text-xl text-[#9d00ff]">Hello!</p>
+          <p className="text-xl text-[#81E6D9]">Hello!</p>
           <h3 className="text-6xl md:text-8xl">
             I'm <span className="text-[#fff]">Kranti Kumar</span>
           </h3>
         </div>
         <h4 className="text-lg sm:text-3xl flex gap-4">
           I'm
-          <span className="text-[#9d00ff]">
+          <span className="text-[#81E6D9]">
             <TypewriterEffect />
           </span>
         </h4>
@@ -34,7 +34,7 @@ const Home = () => {
         </p>
         <Link
           href={"#"}
-          className="flex items-center mt-6 px-8 py-2 mr-auto rounded gap-1 text-lg bg-[#9d00ff] "
+          className="flex items-center mt-6 px-8 py-2 mr-auto rounded gap-1 text-lg bg-[#38B2AC]"
         >
           Contact me
           <AiOutlineSend size={15} />
@@ -43,17 +43,17 @@ const Home = () => {
       <div className="flex justify-center lg:justify-between  text-[#fff]">
         <Link
           href={"#about"}
-          className="hidden lg:flex items-center animate-bounce text-lg text-[#9d00ff]"
+          className="hidden lg:flex items-center animate-bounce text-lg text-[#81E6D9]"
         >
           <BsMouse />
           Scroll Down
           <AiOutlineArrowDown />
         </Link>
         <div className="flex gap-6 sm:gap-14 text-2xl sm:text-3xl">
-          <FaFacebookSquare className="hover:scale-[1.1] duration-300 ease-in-out hover:text-[#9d00ff]" />
-          <AiOutlineInstagram className="hover:scale-[1.1] duration-300 hover:text-[#9d00ff]" />
-          <FaLinkedin className="hover:scale-[1.1] duration-300 hover:text-[#9d00ff]" />
-          <AiOutlineGithub className="hover:scale-[1.1] duration-300 hover:text-[#9d00ff]" />
+          <FaFacebookSquare className="hover:scale-[1.1] duration-300 ease-in-out hover:text-[#81E6D9]" />
+          <AiOutlineInstagram className="hover:scale-[1.1] duration-300 hover:text-[#81E6D9]" />
+          <FaLinkedin className="hover:scale-[1.1] duration-300 hover:text-[#81E6D9]" />
+          <AiOutlineGithub className="hover:scale-[1.1] duration-300 hover:text-[#81E6D9]" />
         </div>
       </div>
     </section>

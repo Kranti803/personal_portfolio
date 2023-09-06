@@ -9,7 +9,7 @@ const About = () => {
     <section id="about" className="px-6 lg:w-[80vw] m-auto">
       <div className="flex gap-2 items-center">
         <span className="text-xl md:text-3xl">About</span>
-        <p className="h-[1px] bg-[#9d00ff] w-screen"></p>
+        <p className="h-[1px] bg-[#81E6D9] w-screen"></p>
       </div>
       <div className=" mt-4 md:flex md:justify-between text-center">
         <div className=" flex justify-center md:items-center">
@@ -38,7 +38,7 @@ const About = () => {
           </p>
           <Link
           href={"#"}
-          className="flex items-center mt-6 px-8 py-2 w-max m-auto rounded gap-4 text-lg bg-[#9d00ff] "
+          className="flex items-center mt-6 px-8 py-2 w-max m-auto rounded gap-4 text-lg bg-[#38B2AC]"
         >
           Resume
           <BsDownload size={20}/>

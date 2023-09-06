@@ -9,7 +9,7 @@ import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <main className="bg-[#0a192f] text-white">
+    <main className="bg-[#1A202C] text-white">
       <Hero />
       <About />
       <Skills/>
