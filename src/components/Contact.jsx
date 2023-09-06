@@ -5,7 +5,7 @@ import { AiFillMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section id="contact" className=" mt-8 px-6 lg:w-[80vw] m-auto ">
+    <section id="contact" className=" mt-8 px-6 md:px-0 lg:w-[80vw] m-auto ">
       <div className="flex gap-2 items-center">
         <span className="text-xl md:text-3xl">Contact</span>
         <p className="h-[1px] bg-[#81E6D9] w-screen"></p>
@@ -44,11 +44,13 @@ const Contact = () => {
               className=" bg-slate-700 bg-opacity-[0.65] shadow-lg rounded-sm p-2 mt-2 bg-inherit text-white outline-none"
             />
             <textarea
-            rows={10}
+              rows={10}
               placeholder="Message"
               className=" bg-slate-700 bg-opacity-[0.65] shadow-lg rounded-sm resize-none mt-2 p-4 bg-inherit text-white outline-none"
             ></textarea>
-            <button className="shadow-lg rounded-sm mt-2 bg-[#38B2AC] py-2">Send Message</button>
+            <button className="shadow-lg rounded-sm mt-2 bg-[#38B2AC] py-2">
+              Send Message
+            </button>
           </form>
         </div>
       </div>

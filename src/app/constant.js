@@ -1,6 +1,7 @@
 import Movie from '../assets/movie.png'
 import Blog from '../assets/blog.png'
 import Netflix from '../assets/netflix.png'
+import Portfolio from '../assets/portfolio.png'
 
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
@@ -66,12 +67,17 @@ export const projects = [
         link: "#about",
         imageSrc:Movie
     },
-
     {
         id: 3,
         name: "Netflix Clone",
         link: "#skills",
         imageSrc:Netflix
+    },
+    {
+        id: 3,
+        name: "NextJS Portfolio",
+        link: "#skills",
+        imageSrc:Portfolio
     },
    
 ];

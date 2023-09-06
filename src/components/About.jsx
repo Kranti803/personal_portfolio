@@ -3,6 +3,7 @@ import Image from "next/image";
 import Profile from "../assets/profile.webp";
 import  Link  from 'next/link';
 import { BsDownload } from "react-icons/bs";
+import CustomImage from "./CustomImage";
 
 const About = () => {
   return (
@@ -13,6 +14,10 @@ const About = () => {
       </div>
       <div className=" mt-4 md:flex md:justify-between text-center">
         <div className=" flex justify-center md:items-center">
+         {/* <CustomImage
+         image={Profile}
+         className="h-[300px] md:h-[400px] w-[300px] object-fill rounded-[50%] md:rounded-lg"
+         /> */}
           <Image
             src={Profile}
             loading="lazy"

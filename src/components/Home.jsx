@@ -14,7 +14,7 @@ import { TypewriterEffect } from "./Client";
 
 const Home = () => {
   return (
-    <section className="px-6 lg:w-[80vw] m-auto  h-[calc(100vh-40px)] flex justify-evenly flex-col">
+    <section className="px-6 md:px-0 lg:w-[80vw] m-auto  h-[calc(100vh-40px)] flex justify-evenly flex-col">
       <div className="flex flex-col gap-8">
         <div>
           <p className="text-xl text-[#81E6D9]">Hello!</p>
