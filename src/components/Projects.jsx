@@ -1,6 +1,5 @@
 import React from "react";
 // import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
-import { CarouselComponent } from "./Client";
 
 
 const Projects = () => {
