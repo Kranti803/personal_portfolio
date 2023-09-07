@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Profile from "../assets/profile.webp";
-import  Link  from 'next/link';
+import Link from "next/link";
 import { BsDownload } from "react-icons/bs";
-import CustomImage from "./CustomImage";
 
 const About = () => {
   return (
@@ -14,14 +13,11 @@ const About = () => {
       </div>
       <div className=" mt-4 md:flex md:justify-between text-center">
         <div className=" flex justify-center md:items-center">
-         {/* <CustomImage
-         image={Profile}
-         className="h-[300px] md:h-[400px] w-[300px] object-fill rounded-[50%] md:rounded-lg"
-         /> */}
           <Image
             src={Profile}
             loading="lazy"
-          className=" h-[300px] md:h-[400px] w-[300px] object-fill rounded-[50%] md:rounded-lg"
+            alt="profile_image"
+            className=" h-[220px] xs:h-[300px] md:h-[400px] w-[240px] xs:w-[300px] object-fill rounded-[50%] md:rounded-lg"
           />
         </div>
         <div className="md:w-[calc(100%-300px)] pl-2">
@@ -42,12 +38,12 @@ const About = () => {
             and contribute to creating innovative and impactful projects."
           </p>
           <Link
-          href={"#"}
-          className="flex items-center mt-6 px-8 py-2 w-max m-auto rounded gap-4 text-lg bg-[#38B2AC]"
-        >
-          Resume
-          <BsDownload size={20}/>
-        </Link>
+            href={"#"}
+            className="flex items-center mt-6 px-8 py-2 w-max m-auto rounded gap-4 text-lg bg-[#38B2AC]"
+          >
+            Resume
+            <BsDownload size={20} />
+          </Link>
         </div>
       </div>
     </section>

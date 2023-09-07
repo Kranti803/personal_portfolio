@@ -5,7 +5,7 @@ import { AiFillMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section id="contact" className=" mt-8 px-6 md:px-0 lg:w-[80vw] m-auto ">
+    <section id="contact" className=" mt-8 px-6 lg:w-[80vw] m-auto ">
       <div className="flex gap-2 items-center">
         <span className="text-xl md:text-3xl">Contact</span>
         <p className="h-[1px] bg-[#81E6D9] w-screen"></p>

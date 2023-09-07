@@ -57,102 +57,106 @@ export const navLinks = [
 export const projects = [
     {
         id: 1,
-        name:"FullStack Blog WebApp",
-        link: "#home",
-        imageSrc:Blog
+        name: "FullStack Blog WebApp",
+        githubLink: "https://github.com/Kranti803/myblog--Frontend",
+        demoLink: "https://myblog-frontend-rouge.vercel.app/",
+        imageSrc: Blog
     },
     {
         id: 2,
         name: "Movie WebApp",
-        link: "#about",
-        imageSrc:Movie
+        githubLink: "https://github.com/Kranti803/movieWebApp",
+        demoLink: "https://movie-web-app-gamma.vercel.app/",
+        imageSrc: Movie
     },
     {
         id: 3,
         name: "Netflix Clone",
-        link: "#skills",
-        imageSrc:Netflix
+        githubLink: "https://github.com/Kranti803/Netflix_Clone",
+        demoLink: "https://netflix-clone-livid-kappa.vercel.app/",
+        imageSrc: Netflix
     },
     {
         id: 3,
         name: "NextJS Portfolio",
-        link: "#skills",
-        imageSrc:Portfolio
+        githubLink: "https://github.com/Kranti803/personal_portfolio",
+        demoLink: "https://kranti-kumar.vercel.app/",
+        imageSrc: Portfolio
     },
-   
+
 ];
 
 export const skills = [
     {
         id: 1,
-        name:"HTML",
-        imageSrc:HTML
+        name: "HTML",
+        imageSrc: HTML
     },
     {
         id: 2,
-        name:"CSS",
-        imageSrc:CSS
+        name: "CSS",
+        imageSrc: CSS
     },
     {
         id: 3,
-        name:"Javascript",
-        imageSrc:JS
+        name: "Javascript",
+        imageSrc: JS
     },
     {
         id: 4,
-        name:"React JS",
-        imageSrc:REACT
+        name: "React JS",
+        imageSrc: REACT
     },
     {
         id: 5,
-        name:"Node JS",
-        imageSrc:NODE
+        name: "Node JS",
+        imageSrc: NODE
     },
     {
         id: 6,
-        name:"MongoDB",
-        imageSrc:MONGODB
+        name: "MongoDB",
+        imageSrc: MONGODB
     },
     {
         id: 7,
-        name:"Express JS",
-        imageSrc:EXPRESS
+        name: "Express JS",
+        imageSrc: EXPRESS
     },
     {
         id: 8,
-        name:"Redux Toolkit",
-        imageSrc:REDUX
+        name: "Redux Toolkit",
+        imageSrc: REDUX
     },
     {
         id: 9,
-        name:"Tailwind Css",
-        imageSrc:TAILWIND
+        name: "Tailwind Css",
+        imageSrc: TAILWIND
     },
     {
         id: 10,
-        name:"Git",
-        imageSrc:GIT
+        name: "Git",
+        imageSrc: GIT
     },
     {
-        id:11,
-        name:"Github",
-        imageSrc:GITHUB
+        id: 11,
+        name: "Github",
+        imageSrc: GITHUB
     },
     {
         id: 12,
-        name:"Sass",
-        imageSrc:SASS
+        name: "Sass",
+        imageSrc: SASS
     },
     {
         id: 13,
-        name:"Firebase",
-        imageSrc:FIREBASE
+        name: "Firebase",
+        imageSrc: FIREBASE
     },
     {
         id: 14,
-        name:"C++",
-        imageSrc:CPP
+        name: "C++",
+        imageSrc: CPP
     },
-  
-   
+
+
 ];
