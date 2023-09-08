@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <nav className="bg-[#1A202C] z-50 shadow-2xl text-white flex h-[40px] items-center justify-between px-4 sm:px-16 sticky top-0 left-0">
       <h2 className=" text-2xl xs:text-3xl font-bold">
-        <Link href={"/login"}>
+        <Link href={"/"}>
           Kk<span className="text-[#81E6D9]">.</span>
         </Link>
       </h2>
@@ -37,7 +37,7 @@ const Header = () => {
         }
       >
         <h2 className="text-2xl xs:text-3xl font-bold">
-          <Link href={"/login"}>
+          <Link href={"/"}>
             Kk<span className="text-[#ffffff]">.</span>
           </Link>
         </h2>
