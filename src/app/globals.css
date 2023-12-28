@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
 * {
   margin: 0;
@@ -12,6 +11,7 @@
   scroll-behavior: smooth;
   list-style: none;
   scroll-padding-top: 80px;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -19,7 +19,16 @@ html {
   scroll-behavior: smooth !important;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
 
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width:5px;
+  background: #1A1A1B;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #CC9544; 
+  border-radius: 4px;
+
+}

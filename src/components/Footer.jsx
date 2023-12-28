@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <p className="text-center text-[#81E6D9] h-[100px] flex justify-center items-center bg-[#1A202C]"> &copy; All Rights Reserved - 2023</p>
+      <p className="text-center h-[100px] text-[#CC9544] flex justify-center items-center bg-[rgb(32,33,36)]"> &copy; All Rights Reserved - 2023</p>
     </footer>
   );
 };

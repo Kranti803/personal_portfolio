@@ -14,7 +14,7 @@ const ProjectCard = () => {
             className="w-full h-full object-cover rounded-sm"
             alt="projects_image"
           />
-          <div className=" px-2 md:px-4 flex flex-col justify-evenly items-center text-center text-white absolute rounded-sm bottom-0 bg-[#38B2AC] w-[100%] h-[0%] group-hover:h-[100%]  duration-150 bg-opacity-[.75]">
+          <div className=" px-2 md:px-4 flex flex-col justify-evenly items-center text-center text-white absolute rounded-sm bottom-0 bg-[#CC9544] w-[100%] h-[0%] group-hover:h-[100%]  duration-150 bg-opacity-[.75]">
             <h4 className="text-lg invisible group-hover:visible font-semibold">
               {item.name}
             </h4>

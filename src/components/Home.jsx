@@ -13,17 +13,17 @@ import { TypewriterEffect } from "./Client";
 
 const Home = () => {
   return (
-    <section className="px-6 lg:w-[80vw] m-auto  min-h-[calc(100vh-40px)] flex justify-evenly flex-col">
+    <section className="min-h-[calc(100vh-40px)] px-6 lg:w-[80vw] m-auto flex justify-evenly flex-col">
       <div className="flex flex-col gap-4 xs:gap-8">
         <div>
-          <p className="text-xl text-[#81E6D9]">Hello!</p>
-          <h3 className="text-6xl md:text-8xl">
+          <p className="text-xl text-[#CC9544]">Hello!</p>
+          <h3 className="text-5xl md:text-7xl">
             I'm <span className="text-[#fff]">Kranti Kumar</span>
           </h3>
         </div>
         <h4 className="text-sm xs:text-2xl md:text-3xl flex gap-2">
           I'm
-          <span className="text-[#81E6D9]">
+          <span className="text-[#CC9544]">
             <TypewriterEffect />
           </span>
         </h4>
@@ -34,7 +34,7 @@ const Home = () => {
         <Link
           href={"mailto:krantikumar803@gmail.com"}
           className="flex items-center mt-6 px-8 py-2 mr-auto rounded gap-1
-          text-lg bg-[#38B2AC]"
+          text-lg bg-[#CC9544]"
         >
           {" "}
           Contact me
@@ -44,7 +44,7 @@ const Home = () => {
       <div className="flex justify-center lg:justify-between  text-[#fff]">
         <Link
           href={"#about"}
-          className="hidden lg:flex items-center animate-bounce text-lg text-[#81E6D9]"
+          className="hidden lg:flex items-center animate-bounce text-lg text-[#CC9544]"
         >
           <BsMouse />
           Scroll Down
@@ -54,12 +54,12 @@ const Home = () => {
           <Link
             href={"https://www.facebook.com/profile.php?id=100009548415723"}
           >
-            <FaFacebookSquare className="hover:scale-[1.1] duration-300 ease-in-out hover:text-[#81E6D9]" />
+            <FaFacebookSquare className="hover:scale-[1.1] duration-300 ease-in-out hover:text-[#CC9544]" />
           </Link>
-          <AiOutlineInstagram className="hover:scale-[1.1] duration-300 hover:text-[#81E6D9]" />
-          <FaLinkedin className="hover:scale-[1.1] duration-300 hover:text-[#81E6D9]" />
+          <AiOutlineInstagram className="hover:scale-[1.1] duration-300 hover:text-[#CC9544]" />
+          <FaLinkedin className="hover:scale-[1.1] duration-300 hover:text-[#CC9544]" />
           <Link href={"https://github.com/Kranti803"}>
-            <AiOutlineGithub className="hover:scale-[1.1] duration-300 hover:text-[#81E6D9]" />
+            <AiOutlineGithub className="hover:scale-[1.1] duration-300 hover:text-[#CC9544]" />
           </Link>
         </div>
       </div>

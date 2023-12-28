@@ -9,21 +9,21 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-[#1A202C] z-50 shadow-2xl text-white flex h-[40px] items-center justify-between px-4 sm:px-16 sticky top-0 left-0">
+    <nav className="bg-[rgb(32,33,36)] z-50 text-white flex h-[45px] items-center justify-between px-4 sm:px-16 sticky top-0 left-0">
       <h2 className=" text-2xl xs:text-3xl font-bold">
         <Link href={"/"}>
-          Kk<span className="text-[#81E6D9]">.</span>
+          Kk<span className="text-[#CC9544]">.</span>
         </Link>
       </h2>
       <ul className="hidden md:flex gap-8 text-lg">
         {navLinks.map((item) => (
-          <li key={item.id} className="hover:text-[#81E6D9]">
+          <li key={item.id} className="hover:text-[#CC9544]">
             <Link href={item.link}>{item.name}</Link>
           </li>
         ))}
       </ul>
       <button className=" block md:hidden text-[#81E6D9]">
-        <Hamburger toggled={open} toggle={setOpen}>
+        <Hamburger toggled={open} toggle={setOpen} hideOutline={true} rounded distance="sm" color="#CC9544">
           HAmburger
         </Hamburger>
       </button>
@@ -32,8 +32,8 @@ const Header = () => {
       <div
         className={
           open
-            ? "bg-[#38B2AC] absolute h-screen top-0 left-0 w-1/2 px-10 py-2 duration-200 ease-in translate-x-[0%]"
-            : "bg-[#38B2AC] absolute h-screen top-0 left-0 w-1/2 px-10 py-2 duration-200 ease-in translate-x-[-100%]"
+            ? "bg-[#CC9544] absolute h-screen top-0 left-0 w-2/3 px-10 py-2 duration-200 ease-in translate-x-[0%]"
+            : "bg-[#CC9544] absolute h-screen top-0 left-0 w-2/3 px-10 py-2 duration-200 ease-in translate-x-[-150%]"
         }
       >
         <h2 className="text-2xl xs:text-3xl font-bold">
