@@ -25,7 +25,7 @@ const Contact = () => {
   const handleContact = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const res = await fetch("https://cors-anywhere.herokuapp.com/https://personal-portfolio-krantikumar803-gmailcom.vercel.app/api/contact", {
+    const res = await fetch("https://kranti-kumar.vercel.app/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
