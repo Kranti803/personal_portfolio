@@ -25,7 +25,7 @@ const Header = () => {
           </li>
         ))}
       </ul>
-      <button className=" block md:hidden text-[#81E6D9]" onClick={notify}>
+      <button className=" block md:hidden text-[#81E6D9]">
         <Hamburger
           toggled={open}
           toggle={setOpen}
