@@ -4,12 +4,12 @@ import Link from "next/link";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import { navLinks } from "@/app/constant";
-import { toast} from "react-toastify";
+
 
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const notify = () => toast.success("Wow so easy!");
+
 
   return (
     <nav className="bg-primary-color z-50 text-white flex h-[45px] items-center justify-between px-4 sm:px-16 sticky top-0 left-0">
