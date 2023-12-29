@@ -9,7 +9,7 @@ const About = () => {
     <section id="about" className="px-6 lg:w-[80vw] m-auto">
       <div className="flex gap-2 items-center">
         <span className="text-xl md:text-3xl">About</span>
-        <p className="h-[1px] bg-[#CC9544] w-screen"></p>
+        <p className="h-[1px] bg-secondary-color w-screen"></p>
       </div>
       <div className=" mt-4 md:flex md:justify-between text-center">
         <div className=" flex justify-center md:items-center">
@@ -17,11 +17,11 @@ const About = () => {
             src={Profile}
             loading="lazy"
             alt="profile_image"
-            className=" h-[220px] xs:h-[300px] md:h-[400px] w-[240px] xs:w-[300px] object-fill rounded-[50%] md:rounded-lg"
+            className=" h-[220px] xs:h-[300px] md:h-[400px] w-[240px] xs:w-[300px] object-fill rounded-[50%] md:rounded-lg grayscale-0 hover:grayscale"
           />
         </div>
         <div className="md:w-[calc(100%-300px)] text-center md:text-left md:pl-8">
-          <h3 className="text-2xl py-4">A short introduction of mine...</h3>
+          <h3 className="text-2xl py-4 text-secondary-color">About me ... </h3>
           <p className="md:text-lg">
             "As a dedicated and self-motivated individual, I am a full-stack
             developer with a passion for creating elegant and efficient
@@ -39,7 +39,7 @@ const About = () => {
           </p>
           <Link
             href={"#"}
-            className="flex items-center mt-6 px-8 py-2 w-max m-auto rounded gap-4 text-lg bg-[#CC9544]"
+            className="flex items-center mt-6 px-8 py-2 w-max m-auto rounded gap-4 text-lg bg-secondary-color"
           >
             Resume
             <BsDownload size={20} />

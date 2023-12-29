@@ -15,6 +15,15 @@
 
 }
 
+@layer base {
+  :root {
+    --primary-color: rgba(32, 33, 36);
+    --secondary-color: #CC9544;
+
+  }
+}
+
+
 html {
   scroll-behavior: smooth !important;
 }
@@ -22,13 +31,13 @@ html {
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-  width:5px;
+  width: 5px;
   background: #1A1A1B;
 }
- 
+
 
 ::-webkit-scrollbar-thumb {
-  background: #CC9544; 
+  background: #CC9544;
   border-radius: 4px;
 
 }
