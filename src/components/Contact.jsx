@@ -25,7 +25,7 @@ const Contact = () => {
   const handleContact = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const res = await fetch("http://localhost:3000/api/contact", {
+    const res = await fetch("https://kranti-kumar.vercel.app/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
