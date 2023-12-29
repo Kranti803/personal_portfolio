@@ -12,7 +12,10 @@ const Projects = () => {
         <p className="h-[1px] bg-secondary-color w-screen"></p>
       </div>
       {projects.map((item) => (
-        <div key={item.id} className="flex even:flex-row-reverse gap-8 mb-12 min-h-[300px]">
+        <div
+          key={item.id}
+          className="flex even:flex-row-reverse gap-8 mb-12 min-h-[300px]"
+        >
           <div className="w-[100%] md:w-[40%] rounded-sm relative group">
             <Image
               src={item.imageSrc}
@@ -29,18 +32,18 @@ const Projects = () => {
               </p>
               <p className="invisible group-hover:visible flex flex-wrap gap-4">
                 TechStack :
-                {item.techStack.map((elem,index) => (
+                {item.techStack.map((elem, index) => (
                   <span key={index}>{elem}</span>
                 ))}
               </p>
               <div className="flex gap-12 invisible group-hover:visible">
                 <button>
-                  <Link href={item?.githubLink}>
+                  <Link href={item?.githubLink} target="_blank">
                     <AiOutlineGithub size={30} />
                   </Link>
                 </button>
                 <button>
-                  <Link href={item?.demoLink}>
+                  <Link href={item?.demoLink} target="_blank">
                     <AiOutlineLink size={30} />
                   </Link>
                 </button>
@@ -48,15 +51,31 @@ const Projects = () => {
             </div>
           </div>
 
-
           <div className="flex-1 hidden md:flex flex-col w-[60%] justify-evenly">
             <h2 className="text-secondary-color md:text-2xl">{item.name}</h2>
             <p>{item.description}</p>
             <div className="flex items-center gap-2 text-sm">
               TechStack :
-              {item.techStack.map((elem,index) => (
-                <span key={index} className="p-1 rounded-sm text-secondary-color">{elem}</span>
+              {item.techStack.map((elem, index) => (
+                <span
+                  key={index}
+                  className="p-1 rounded-sm text-secondary-color"
+                >
+                  {elem}
+                </span>
               ))}
+            </div>
+            <div className="flex gap-12">
+              <button>
+                <Link href={item?.githubLink} target="_blank">
+                  <AiOutlineGithub size={25} color="#CC9544" />
+                </Link>
+              </button>
+              <button>
+                <Link href={item?.demoLink} target="_blank">
+                  <AiOutlineLink size={25} color="#CC9544" />
+                </Link>
+              </button>
             </div>
           </div>
         </div>
