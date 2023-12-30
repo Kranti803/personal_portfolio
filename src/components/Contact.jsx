@@ -81,6 +81,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Name"
                 className="bg-[#2c2f35cd] bg-opacity-[0.65] shadow-lg rounded-sm w-full sm:w-auto p-2 text-white outline-none"
+                required
               />
               <input
                 onChange={handleInputChange}
@@ -89,6 +90,7 @@ const Contact = () => {
                 type="email"
                 placeholder="Email"
                 className=" bg-[#2c2f35cd] bg-opacity-[0.65] shadow-lg rounded-sm w-full sm:w-auto p-2 text-white outline-none"
+                required
               />
             </div>
             <input
@@ -98,6 +100,7 @@ const Contact = () => {
               type="text"
               placeholder="Subject"
               className=" bg-[#2c2f35cd] bg-opacity-[0.65] shadow-lg rounded-sm p-2 mt-2 text-white outline-none"
+              required
             />
             <textarea
               onChange={handleInputChange}
@@ -106,6 +109,7 @@ const Contact = () => {
               rows={10}
               placeholder="Message"
               className="bg-[#2c2f35cd] bg-opacity-[0.65] shadow-lg rounded-sm resize-none mt-2 p-4 text-white outline-none"
+              required
             />
             <button
               type="submit"
