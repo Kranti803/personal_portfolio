@@ -1,5 +1,6 @@
 import Movie from '../assets/movie.png'
 import Blog from '../assets/blog.png'
+import Ecommerce from '../assets/ecommerce.png'
 
 
 import HTML from "../assets/html.png";
@@ -60,7 +61,7 @@ export const projects = [
         githubLink: "https://github.com/Kranti803/myblog--Frontend",
         demoLink: "https://myblog-frontend-rouge.vercel.app/",
         imageSrc: Blog,
-        description:'Explore captivating content effortlessly on our blog website. Enjoy a seamless reading experience with user-friendly navigation. Immerse yourself in a world of diverse topics, transforming online reading into a personalized journey.',
+        description: 'Explore captivating content effortlessly on our blog website. Enjoy a seamless reading experience with user-friendly navigation. Immerse yourself in a world of diverse topics, transforming online reading into a personalized journey.',
         techStack: ['ReactJs', 'NodeJs', 'ExpressJs', 'MongoDB', 'Sass']
     },
     {
@@ -69,10 +70,19 @@ export const projects = [
         githubLink: "https://github.com/Kranti803/movieWebApp",
         demoLink: "https://movie-web-app-gamma.vercel.app/",
         imageSrc: Movie,
-        description:'Explore the world of cinema effortlessly with our movie web app. Watch trailers, filter options, and diverse categories make choosing the perfect film a breeze. Transform your movie nights with a user-friendly interface, ensuring a personalized and enjoyable experience. Welcome to a seamless journey into entertainment at your fingertips.',
+        description: 'Explore the world of cinema effortlessly with our movie web app. Watch trailers, filter options, and diverse categories make choosing the perfect film a breeze. Transform your movie nights with a user-friendly interface, ensuring a personalized and enjoyable experience. Welcome to a seamless journey into entertainment at your fingertips.',
         techStack: ['ReactJs', 'Sass']
     },
-   
+    {
+        id: 3,
+        name: "Ecommerce",
+        githubLink: "https://github.com/Kranti803/frontend-Ecommerce",
+        demoLink: "https://frontend-ecommerce-five.vercel.app/",
+        imageSrc: Ecommerce,
+        description: 'Discover Exclusive, where MERN stack technology brings seamless shopping to life! Explore a curated selection of gadgets, and more. With MongoDB, Express.js, React, and Node.js, enjoy lightning-fast performance and secure transactions. Elevate your online shopping experience today!',
+        techStack: ['ReactJs', 'NodeJs', 'MongoDB', 'ExpressJs', 'Tailwind CSS']
+    },
+
 ];
 
 export const skills = [
