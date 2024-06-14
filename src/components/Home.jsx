@@ -21,20 +21,20 @@ const Home = () => {
             I'm <span className="text-[#fff]">Kranti Kumar</span>
           </h3>
         </div>
-        <h4 className="text-sm xs:text-2xl md:text-3xl flex gap-2">
+        <h4 className="text-xs xs:text-lg md:text-3xl flex gap-2">
           I'm
           <span className="text-secondary-color">
             <TypewriterEffect />
           </span>
         </h4>
-        <p className="text-lg  text-white">
+        <p className="text-sm sm:text-lg text-white">
           I have a passion for building intuitive, user-friendly interfaces that
           provide an enjoyable and seamless user experience.
         </p>
         <Link
           href={"mailto:krantikumar803@gmail.com"}
-          className="flex items-center mt-6 px-8 py-2 mr-auto rounded gap-1
-          text-lg bg-[#CC9544]"
+          className="flex items-center mt-6 px-6 py-1 mr-auto rounded gap-1
+          text-lg bg-[#50C878]"
         >
           {" "}
           Contact me

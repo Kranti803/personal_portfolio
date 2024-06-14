@@ -27,8 +27,7 @@ const Contact = () => {
   const handleContact = async (e) => {
     e.preventDefault();
     setLoading(true);
-    // const res = await fetch("https://kranti-kumar.vercel.app/api/contact", {
-    const res = await fetch("http://localhost:3000/api/contact", {
+    const res = await fetch("https://kranti-kumar.vercel.app/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -53,22 +52,22 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className=" mt-8 px-6 lg:w-[80vw] m-auto ">
+    <section id="contact" className=" mt-8 pb-4 px-6 lg:w-[80vw] m-auto ">
       <div className="flex gap-2 items-center">
         <span className="text-xl md:text-3xl">Contact</span>
-        <p className="h-[1px] bg-[#CC9544] w-screen"></p>
+        <p className="h-[1px] bg-[#50C878] w-screen"></p>
       </div>
       <div className="flex justify-evenly flex-wrap">
         <div className="grid gap-8 pt-8 place-items-center">
           <h4 className="flex items-center sm:text-lg gap-2">
-            <IoMdCall className="text-[#CC9544]" size={25} /> +977 980123244
+            <IoMdCall className="text-[#50C878]" size={25} /> +977 980123244
           </h4>
           <h4 className="flex items-center sm:text-lg gap-2">
-            <CiLocationOn className="text-[#CC9544]" size={25} />
+            <CiLocationOn className="text-[#50C878]" size={25} />
             Kathmandu, Nepal
           </h4>
           <h4 className="flex items-center sm:text-lg gap-2">
-            <AiFillMail className="text-[#CC9544]" size={25} />
+            <AiFillMail className="text-[#50C878]" size={25} />
             Krantikumar803@gmail.com
           </h4>
         </div>

@@ -17,6 +17,7 @@ import GITHUB from "../assets/github.png";
 import SASS from "../assets/sass.png";
 import FIREBASE from "../assets/firebase.png";
 import CPP from "../assets/c++.png";
+import NextJS from "../assets/nextjs.png";
 
 export const navLinks = [
     {
@@ -155,6 +156,11 @@ export const skills = [
         id: 14,
         name: "C++",
         imageSrc: CPP
+    },
+    {
+        id: 15,
+        name: "Next JS",
+        imageSrc: NextJS
     },
 
 

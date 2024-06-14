@@ -32,7 +32,7 @@ const Header = () => {
           hideOutline={true}
           rounded
           distance="sm"
-          color="#CC9544"
+          color="#50C878"
         />
       </button>
 

@@ -17,8 +17,8 @@
 
 @layer base {
   :root {
-    --primary-color: rgba(32, 33, 36);
-    --secondary-color: #CC9544;
+    --primary-color:#000000;
+    --secondary-color: #50C878;
 
   }
 }
@@ -37,7 +37,7 @@ html {
 
 
 ::-webkit-scrollbar-thumb {
-  background: #CC9544;
+  background: #50C878;
   border-radius: 4px;
 
 }
